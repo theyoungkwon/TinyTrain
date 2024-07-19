@@ -4,11 +4,16 @@
 
 [2 May 2024] Our paper is accepted to [ICML 2024](https://icml.cc/)!
 
+![](assets/TinyTrain_Poster_ICML24.png)
+
 # Overview
 
 In this work, we present ***TinyTrain***, the first approach that fully enables compute-, memory-, and data-efficient on-device training on constrained edge devices. Compared to existing on-device training approaches, TinyTrain achieves the SOTA accuracy, with gains of 3.6-5.0% over fine-tuning the entire DNN (i.e., FullTrain). Also, TinyTrain significantly reduces the memory footprint and computation required for backward pass by up to 1,098× and 7.68×, respectively.
 
-![Teaser](assets/teaser.png)
+<p align="center">
+  <img src="assets/teaser.png" width="600" >
+</p>
+
 
 
 ## Results
@@ -19,12 +24,13 @@ In this work, we present ***TinyTrain***, the first approach that fully enables 
 
 ### Memory footprint and computation cost
 
-![](assets/memory_compute.png)
+<p align="center">
+  <img src="assets/memory_compute.png" width="600" >
+</p>
 
 ### End-to-end training time and energy consumption
 
 ![](assets/latency_energy.png)
-
 
 
 ## Citation
